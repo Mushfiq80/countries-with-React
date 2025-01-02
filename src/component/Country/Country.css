@@ -1,0 +1,31 @@
+.country{
+    border: 2px solid rgb(211, 102, 82);
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.btn-info{
+    background: crimson;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.img{
+    width: 100%;
+    border-radius: 5px;
+}
